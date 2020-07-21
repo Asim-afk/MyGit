@@ -1,6 +1,6 @@
 def funct(n):
-    compute = n+n*n+n*n*n
+    compute = int(n)+int(n*2)+int(n*3)
     return compute
 
-ans= funct(int(input("enter youtr num: ")))
+ans= funct(input("enter youtr num: "))
 print(ans)
